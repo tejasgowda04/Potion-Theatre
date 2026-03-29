@@ -48,6 +48,31 @@ Every package extends `tsconfig.base.json` which sets `composite: true`. The roo
 - `pnpm run build` — runs `typecheck` first, then recursively runs `build` in all packages that define it
 - `pnpm run typecheck` — runs `tsc --build --emitDeclarationOnly` using project references
 
+## Artifacts
+
+### `artifacts/potions` — Potions Cocktail Theatre Website
+
+A complete production-ready single-page website for "Potions Cocktail Theatre" — a premium cocktail bar co-founded by Sunny Leone & Sahil Baweja at Ambawatta One, New Delhi.
+
+**Tech**: React + Vite, pure CSS (no Tailwind), Google Fonts (Cormorant Garamond, Playfair Display, Jost, Space Mono)
+
+**Features**:
+- Theatrical curtain preloader animation (3.5s + 1.2s curtain reveal)
+- Custom amber candlelight cursor with lerp smoothing
+- SVG film grain overlay (35mm film feel)
+- Hero with parallax background + line-by-line reveal animation
+- Scrolling marquee ticker
+- Ambient candlelight breathing animation
+- Scroll progress bar
+- All 12 sections: Preloader, Navbar, Hero, Ambience, Cocktails, Food, Experience, Events, About, Reviews, Contact/Reservation, Footer
+- Mobile-responsive with hamburger fullscreen menu
+- Reservation form
+- Fixed floating "Reserve" button with pulse glow
+
+**Key files**: `artifacts/potions/src/App.tsx`, `artifacts/potions/src/potions.css`, `artifacts/potions/index.html`
+
+---
+
 ## Packages
 
 ### `artifacts/api-server` (`@workspace/api-server`)
