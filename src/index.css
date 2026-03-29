@@ -1,0 +1,4 @@
+/* Potions Cocktail Theatre — base reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
